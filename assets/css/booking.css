@@ -1,0 +1,1256 @@
+            /*-------------------------------
+ common-css 
+. -------------------------------*/
+            
+            .sucess-bg {
+                border-bottom: 1px solid rgba(225, 242, 255, 0.575);
+                background-color: rgb(122, 232, 150);
+            }
+            
+            .danger-bg {
+                border-bottom: 1px solid rgb(225, 242, 255);
+                background-color: rgb(249, 107, 107);
+            }
+            
+            .warning-bg {
+                border-bottom: 1px solid rgb(225, 242, 255);
+                background-color: rgb(249, 184, 107);
+            }
+            
+            .height-40 {
+                height: 40px!important;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+            }
+            
+            .height-100 {
+                height: 100%;
+            }
+            
+            .height-40 a {
+                color: #ffffff;
+                font-weight: 600;
+                text-align: center;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                font-size: 16px;
+            }
+            
+            .jianna-care-date-picker.modal-date-picker {
+                margin: 0 auto;
+                border-radius: 5px;
+                background-color: rgba(54, 171, 252, 0.102);
+                width: 205px;
+                height: 30px;
+                margin: 25px auto;
+            }
+            
+            .width-460-px {
+                max-width: 460px!important;
+            }
+            
+            .modal-table {
+                width: 100%;
+            }
+            
+            .modal-table ul {
+                width: 100%;
+                margin: 0;
+                width: 401px;
+                height: 30px;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                padding: 0 15px;
+            }
+            
+            .modal-table ul.ul-bg {
+                background-color: #d7eefe;
+            }
+            
+            .modal-table ul li {
+                display: inline-block;
+                width: 70px;
+                padding-top: 4px;
+            }
+            
+            .modal-table ul li.gray-color-5 {
+                color: #999999;
+                font-weight: 300;
+                font-size: 12px;
+                text-transform: capitalize;
+            }
+            
+            .modal-table ul li.light-color-6 {
+                color: #36abfc!important;
+                font-weight: 300;
+                font-size: 12px;
+                text-transform: inherit;
+            }
+            
+            .modal-table ul li.light-color-6 i {
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+            }
+            
+            .border-bottoms {
+                border-bottom: 1px solid #d7eefe;
+                padding-top: 30px !important;
+            }
+            
+            .width-380-px {
+                max-width: 380px!important;
+            }
+            
+            .modal-body-15 h3 {
+                text-align: center;
+                font-weight: 600;
+                line-height: 1;
+                margin-bottom: 0;
+                color: #36abfc;
+                font-size: 16px;
+                margin: 20px 0;
+            }
+            
+            .modal-body-15 h3 span {
+                display: block;
+                margin-top: 10px;
+            }
+            
+            .modal-body-15 p {
+                margin: 0;
+                margin-bottom: 15px;
+                color: #6e6e6e;
+                font-weight: 300;
+                font-size: 13px;
+                text-align: center;
+                padding: 0 5px;
+            }
+            
+            .modal-table ul li:nth-child(5) {
+                text-align: right;
+                width: 75px;
+            }
+            
+            .pr-25 {
+                padding-right: 25px;
+            }
+            
+            .pl-25 {
+                padding-left: 25px;
+            }
+            
+            .padding-20 {
+                padding: 20px
+            }
+            
+            .border-tb {
+                border-top: 1px solid#d7eefe;
+                border-bottom: 1px solid#d7eefe;
+                padding: 25px 0;
+                margin-top: 15px;
+            }
+            
+            .width-136 {
+                width: 136px !important;
+            }
+            
+            #exampleModalLabel img {
+                position: relative;
+                right: -245px;
+            }
+            
+            .width-730 {
+                max-width: 730px !important;
+            }
+            
+            ul.jianna-carosel-title li a {
+                padding: 7px 20px !important;
+            }
+            
+            .jianna-care-model-title {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                justify-content: space-between;
+                padding: 30px 45px 0px 30px;
+            }
+            
+            .jianna-care-model-header {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                padding: 0 30px;
+                margin-bottom: 20px;
+            }
+            
+            .modal-header-5,
+            .modal-body-10 {
+                padding: 0;
+            }
+            
+            .jianna-modal-body {
+                padding: 0 30px;
+            }
+            
+            ul.jianna-1 {
+                margin: 0;
+                float: left;
+                width: 88px;
+                overflow: hidden;
+                margin-right: 15px;
+            }
+            
+            ul.jianna-1 li {
+                line-height: 1;
+                color: #636363;
+                font-weight: 300;
+                font-size: 13px;
+                text-transform: capitalize;
+                margin-bottom: 20px;
+            }
+            
+            ul.jianna-1 li:nth-last-child(3) {
+                margin-top: 40px;
+            }
+            
+            ul.jianna-1 li:nth-last-child(2) {
+                margin-top: 47px;
+                margin-bottom: 35px;
+            }
+            
+            ul.jianna-1 li:nth-last-child(1) {
+                color: #fb5252;
+            }
+            
+            ul.jianna {
+                overflow: hidden;
+            }
+            
+            ul.jianna li {
+                line-height: 1;
+                color: #999999;
+                font-weight: 300;
+                font-size: 13px;
+                text-transform: inherit;
+                margin-bottom: 20px;
+            }
+            
+            ul.jianna li span {
+                color: #636363;
+                text-transform: capitalize;
+                font-size: 13px;
+                display: inline-block;
+                margin: 0 50px;
+            }
+            
+            ul.jianna li span.Distance {
+                color: #636363;
+                text-transform: capitalize;
+                font-size: 13px;
+                display: inline-block;
+                margin: 0 30px;
+            }
+            
+            ul.jianna li span.home {
+                display: block;
+                margin: 0;
+                text-transform: inherit;
+                color: inherit;
+                margin-top: 5px;
+            }
+            
+            .jianna-modal-footer {
+                padding: 0 30px 30px;
+            }
+            
+            .jianna-modal-footer button.button {
+                border-radius: 3px;
+                background-image: -moz-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -webkit-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -ms-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                font-size: 14px;
+                color: #fff;
+                width: 156px;
+                padding: 10px;
+                margin-bottom: 15px;
+            }
+            
+            .jianna-modal-footer p {
+                margin: 0;
+                color: #999999;
+                font-weight: 300;
+                font-size: 10px;
+            }
+            
+            .jianna-care-model-icon a {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                line-height: 33px;
+                text-align: center;
+                border-radius: 100%;
+                font-size: 14px;
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+                margin-right: 5px;
+            }
+            
+            .jianna-care-model-icon a:nth-child(1) {
+                background-color: rgb(250, 193, 85, 0.1);
+                color: rgb(250, 193, 85);
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+            }
+            
+            .jianna-care-model-icon a:hover:nth-child(1) {
+                background-color: rgb(250, 193, 85);
+                color: #fff;
+            }
+            
+            .jianna-care-model-icon a:nth-child(2) {
+                background-color: rgb(136, 79, 252, 0.1);
+                color: rgb(136, 79, 252);
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+                transform: rotateY(-190deg);
+            }
+            
+            .jianna-care-model-icon a:hover:nth-child(2) {
+                background-color: rgb(136, 79, 252);
+                color: #fff;
+            }
+            
+            .jianna-care-model-icon a:nth-child(3) {
+                background-color: rgb(122, 128, 250, 0.1);
+                color: rgb(122, 128, 250);
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+            }
+            
+            .jianna-care-model-icon a:hover:nth-child(3) {
+                background-color: rgb(122, 128, 250);
+                color: #fff;
+            }
+            
+            .jianna-care-model-icon a:nth-child(4) {
+                background-color: rgb(253, 98, 98, 0.1);
+                color: rgb(253, 98, 98);
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+            }
+            
+            .jianna-care-model-icon a:hover:nth-child(4) {
+                background-color: rgb(253, 98, 98);
+                color: #fff;
+            }
+            /* --------------------------------
+jianna-care-Booking-Status-start
+----------------------------------- */
+            
+            .jianna-care-shift-title {
+                padding: 10px 0px 25px;
+                border-bottom: 1px solid #d7eefe;
+                margin-bottom: 30px;
+            }
+            
+            .jianna-care-shift-title-s {
+                margin-bottom: 0;
+            }
+            
+            .jianna-care-shift-title h3 {
+                color: #333333;
+                margin: 0;
+                line-height: 1;
+                text-transform: capitalize;
+                font-weight: 600;
+                font-size: 18px;
+            }
+            
+            .booking-border {
+                padding: 20px;
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(225, 242, 255);
+                box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+                padding-bottom: 0px;
+            }
+            
+            .booking-margine {
+                padding: 20px;
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(225, 242, 255);
+                box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+            }
+            
+            .booking-border-2 {
+                padding: 20px 0;
+            }
+            
+            .carosel-top-bar h4 {
+                color: #636363;
+                font-weight: 600;
+                text-transform: capitalize;
+                line-height: 1;
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+            /* -------------------------------------------
+sldier-booking-content-active-css
+--------------------------------------- */
+            
+            .jianna-hr {
+                border-top: 1px solid #e4f3fe;
+                margin-top: 25px;
+            }
+            
+            .booking-content-item {
+                padding: 0 25px 30px 0px;
+                width: 300px;
+            }
+            
+            .booking-content-card {
+                border: 1px solid rgb(225, 242, 255);
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+            }
+            
+            .booking-content-card-title {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            
+            .booking-content-card-title-date {
+                width: 46px;
+                height: 56px;
+                border-radius: 6px;
+                text-align: center;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-line-pack: center;
+                align-content: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+            
+            .booking-content-card-title-info {
+                margin-left: 15px;
+                text-align: left;
+            }
+            
+            .booking-content-card-title-info h3 {
+                margin: 0;
+                color: #333333;
+                text-transform: capitalize;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 1;
+                margin-bottom: 10px;
+            }
+            
+            .booking-content-card-title-info h3 a {
+                color: #0095DD;
+                transition: linear 0.5s;
+                position: relative;
+                margin-right: 6px;
+            }
+            
+            .booking-content-card-title-info h3 span.separetor-3 {
+                display: inline-block;
+                margin-right: 6px;
+            }
+            
+            .booking-content-card-title-info h3 a:hover {
+                color: #0095DD;
+            }
+            
+            .booking-content-card-title-info h3 a:after {
+                width: 100%;
+                height: 1px;
+                content: "";
+                position: absolute;
+                background: #9ad5fd;
+                left: 0;
+                bottom: 0;
+                opacity: 0;
+                visibility: hidden;
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+            }
+            
+            .booking-content-card-title-info h3 a:hover:after {
+                opacity: 1;
+                visibility: visible;
+            }
+            
+            .booking-content-card-title-info p {
+                color: #999999;
+                margin: 0;
+                line-height: 1;
+                font-size: 11px;
+                font-weight: 100;
+            }
+            
+            .booking-content-card-header {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            
+            .booking-content-card-header-price {
+                border-radius: 5px;
+                background-color: rgb(235, 246, 255);
+                width: 74px;
+                height: 35px;
+                box-sizing: border-box;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+            }
+            
+            .booking-content-card-header-price h5 {
+                color: #36abfc;
+                margin: 0;
+                line-height: 1;
+                font-weight: 600;
+                font-size: 14px;
+                display: inline-block;
+            }
+            
+            .booking-content-card-header-price h5 span {
+                font-weight: 300;
+            }
+            
+            .booking-content-card-header-icon {
+                margin-left: 15px;
+            }
+            
+            .booking-content-card-header-icon a {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                line-height: 33px;
+                text-align: center;
+                border-radius: 100%;
+                font-size: 14px;
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+                margin-right: 5px;
+            }
+            
+            .booking-content-card-header-icon a:nth-child(1) {
+                background-color: rgb(250, 193, 85, 0.1);
+                color: rgb(250, 193, 85);
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+            }
+            
+            .booking-content-card-header-icon a:hover:nth-child(1) {
+                background: #fac155;
+                color: #fff;
+            }
+            
+            .booking-content-card-header-icon a:hover:nth-child(2) {
+                background: #7a80fa;
+                color: #fff;
+            }
+            
+            .booking-content-card-header-icon a:nth-child(2) {
+                background-color: rgb(122, 128, 250, .1);
+                color: rgb(122, 128, 250);
+            }
+            
+            .booking-content-card-body p {
+                margin: 0;
+                color: #636363;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 1;
+                margin-bottom: 14px;
+                text-transform: capitalize;
+            }
+            
+            .booking-content-card-body p span.separetor-2,
+            .pencile span.separetor-2 {
+                margin: 0;
+                color: #636363;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 1;
+                text-transform: capitalize;
+                margin-right: 15px;
+            }
+            
+            .booking-content-card-body p span,
+            .pencile span {
+                color: #999999;
+                line-height: 1;
+                display: inline-block;
+            }
+            
+            .booking-content-card-body p span.raiting i {
+                color: #4093fe;
+            }
+            
+            .booking-content-card-body p span.raiting i:nth-child(1) {
+                color: #40b8fe;
+            }
+            
+            .booking-content-card-body p span.raiting i:nth-child(2) {
+                color: #40b1fe;
+            }
+            
+            .booking-content-card-footer {
+                margin-top: 30px;
+            }
+            
+            a.booking-card-footer-btn {
+                border: 1px solid#73bcfe;
+                display: inline-block;
+                color: #73bcfe;
+                font-weight: 300;
+                text-transform: capitalize;
+                font-size: 10px;
+                width: 101px;
+                height: 27px;
+                margin-right: 10px;
+                transition: linear 0.5s;
+                -webkit-transition: linear 0.5s;
+                -moz-transition: linear 0.5s;
+                -ms-transition: linear 0.5s;
+                -o-transition: linear 0.5s;
+                text-align: center;
+                padding-top: 5px;
+                border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                -ms-border-radius: 2px;
+                -o-border-radius: 2px;
+            }
+            
+            a.booking-card-footer-btn-2 {
+                border-radius: 3px;
+                background-image: -moz-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -webkit-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -ms-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                box-shadow: 0px 7px 10.89px 0.11px rgba(64, 145, 254, 0.45);
+                color: #fff;
+                font-weight: 300;
+                text-transform: capitalize;
+                font-size: 10px;
+                width: 101px;
+                height: 27px;
+                border: 1px solid #73c7fe;
+                display: inline-block;
+                text-align: center;
+                padding-top: 5px;
+            }
+            
+            a.booking-card-footer-btn-2:hover {
+                background: rgb(64, 144, 254);
+                box-shadow: 0px 7px 10.89px 0.11px rgba(64, 145, 254, 0.45);
+                color: #fff;
+            }
+            
+            a.booking-card-footer-btn:hover {
+                background: transparent;
+                border: 1px solid #fb9292;
+                color: #fb9292;
+            }
+            /* --------------------------
+    ------------jianna-care-date-picker
+    ------------------------------------ */
+            
+            .jianna-care-shift-titles h3 {
+                color: #333333;
+                margin: 0;
+                line-height: 1;
+                text-transform: capitalize;
+                font-weight: 600;
+                font-size: 18px;
+            }
+            
+            .jianna-care-date-picker {
+                position: relative;
+                border-radius: 5px;
+                background-color: rgba(54, 171, 252, 0.102);
+                width: 134px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /*! margin-left: 210px; */
+                margin-bottom: -3px;
+            }
+            
+            .jianna-picker {
+                margin-left: 255px;
+            }
+            
+            .jianna-care-shift-titles {
+                margin-bottom: -15px;
+            }
+            
+            .log-arrow {
+                width: 62px;
+                position: absolute;
+                top: 12px;
+                right: -104px;
+            }
+            
+            .log-arrow a {
+                background: transparent;
+                border: none;
+                font-size: 29px;
+                color: #c0c0c0;
+            }
+            
+            .jianna-hr-2 {
+                margin: 25px 0;
+            }
+            
+            .jianna-care-date-picker::before {
+                content: "\f104";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                color: #36abfc;
+                position: absolute;
+                left: 10px;
+                top: 050%;
+                transform: translateY(-50%);
+                cursor: pointer;
+            }
+            
+            .jianna-care-date-picker::after {
+                content: "\f105";
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                color: #36abfc;
+                position: absolute;
+                left: auto;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 10px;
+                cursor: pointer;
+            }
+            
+            .jianna-care-date-picker a {
+                color: #36abfc;
+                font-weight: 300;
+                font-size: 13px;
+                position: relative;
+                z-index: 99;
+            }
+            
+            .jianna-care-date-picker a i {
+                margin-right: 8px
+            }
+            /* -------------------------------------------
+sldier-booking-content-active-css
+--------------------------------------- */
+            
+            .booking-content-active-1 .owl-nav button.owl-prev {
+                position: relative;
+            }
+            
+            .booking-content-active-1 .owl-nav {
+                top: -76px;
+                right: 28px;
+            }
+            
+            .booking-content-active-1 .owl-nav button.owl-prev::before {
+                position: absolute;
+                width: 2px;
+                height: 36px;
+                content: "";
+                background: #d7eefe;
+                top: 0;
+                left: -15px;
+            }
+            
+            .booking-content-active-2 .owl-nav {
+                display: none;
+            }
+            
+            .booking-content-active .owl-item {
+                opacity: 1;
+            }
+            
+            .booking-content-active .owl-stage-outer .owl-stage .owl-item.active {
+                width: 300px !important;
+                margin-right: 0 !important;
+            }
+            
+            .owl-carousel .owl-stage-outer {
+                padding-left: 5px;
+            }
+            
+            .sldier-wrapre-content.booking-content-active.booking-content-active-1.booking-content-active-3.owl-carousel .owl-stage-outer {
+                /*! padding-left: 30px; */
+            }
+            
+            .sldier-wrapre-content.booking-content-active.booking-content-active-2.booking-content-active-3.owl-carousel {
+                /*! padding-left: 25px; */
+            }
+            
+            .width-113 {
+                width: 113px!important;
+            }
+            
+            .fas.fa-minus {
+                margin-right: 10px;
+            }
+            
+            .fas.fa-plus {
+                margin-left: 10px;
+            }
+            
+            .fas.fa-pencil-alt {
+                color: #36abfc;
+                margin-left: 5px;
+                cursor: pointer;
+            }
+            
+            .width-260 {
+                max-width: 260px;
+            }
+            
+            .modal-body.modal-body-3.modal-body-11 {
+                padding: 0;
+            }
+            /* ---------------------------
+jianna-care-shift-css-end
+----------------------------- */
+            /* drop-down */
+            
+            .dropdown {
+                margin-bottom: 14px;
+            }
+            
+            .dropdown button {
+                padding: 0;
+                border: 0;
+                cursor: pointer;
+                background: 0;
+            }
+            
+            .dropdown .dropdown-menu a.dropdown-item {
+                border-bottom: 1px solid#90d0fd;
+            }
+            
+            .dropdown .dropdown-menu a.dropdown-item:last-child {
+                border: 0;
+            }
+            
+            .dropdown-item {
+                font-weight: 400;
+                color: #999;
+                text-align: inherit;
+                padding: 0;
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 1;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+            }
+            
+            .dropdown-item:last-child {
+                margin: 0;
+            }
+            
+            .dropdown .dropdown-menu {
+                padding: 0;
+                margin: 0;
+                border: 0;
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+                /*! max-width: 40px !important; */
+                /*! height: 74px; */
+                transform: none !important;
+                padding-top: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+            .dropdown-menu.show {
+                will-change: unset !important;
+                /*! width: 30px; */
+                transform: translate(0) !important;
+                top: -8px !important;
+            }
+            
+            .dropdown-item:focus,
+            .dropdown-item:hover {
+                color: #16181b;
+                text-decoration: none;
+                background-color: transparent;
+            }
+            /* drop-down */
+            /* nice-select */
+            
+            .nice-select {
+                border-radius: 5px;
+                background-color: rgb(235, 246, 255);
+                border: 0;
+                font-size: 14px;
+                font-weight: normal;
+                width: 100%;
+                height: 40px;
+                margin-bottom: 15px;
+            }
+            
+            .nice-select .option {
+                cursor: pointer;
+                font-weight: 400;
+                line-height: 40px;
+                list-style: none;
+                min-height: 40px;
+                outline: none;
+                padding-left: 18px;
+                padding-right: 29px;
+                text-align: left;
+                -webkit-transition: all 0.2s;
+                transition: all 0.2s;
+                color: #36abfc;
+                font-size: 13px !important;
+                text-transform: uppercase;
+            }
+            
+            .nice-select .list {
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+                box-sizing: border-box;
+                margin-top: 4px;
+                opacity: 0;
+                overflow: hidden;
+                padding: 0;
+                pointer-events: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+            }
+            
+            .nice-select .option {
+                cursor: pointer;
+                font-weight: 400;
+                line-height: 40px;
+                list-style: none;
+                min-height: 40px;
+                outline: none;
+                padding-left: 18px;
+                padding-right: 29px;
+                text-align: left;
+                -webkit-transition: all 0.2s;
+                transition: all 0.2s;
+                color: #36abfc;
+                font-size: 13px !important;
+                text-transform: uppercase;
+                border-bottom: 1px solid rgb(235, 246, 255);
+            }
+            
+            .nice-select .option:hover,
+            .nice-select .option.focus,
+            .nice-select .option.selected.focus {
+                background-color: transparent;
+                border: 0 !important;
+                outline: 0;
+            }
+            
+            .nice-select span.current {
+                font-size: 12px;
+                color: #36abfc;
+                font-size: 13px;
+            }
+            
+            #select .nice-select::after {
+                border-bottom: 2px solid #36abfc;
+                border-right: 2px solid #36abfc;
+                width: 5px;
+            }
+            
+            #select {
+                margin-bottom: 20px;
+            }
+            
+            .jianna-care-calendar-title {
+                position: absolute;
+                width: 100%;
+                top: 27px;
+                left: 55px;
+            }
+            
+            .jianna-care-calendar-title.mytitle.text-right {
+                left: -40px;
+                top: 26px;
+            }
+            
+            .jianna-care-calendar-title button {
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 12px;
+                text-transform: capitalize;
+            }
+            
+            table.fc-header {
+                margin-bottom: 20px;
+            }
+            
+            .fc-header-title {
+                margin-right: 60px;
+            }
+            
+            .jianna-care-calendar-title button {
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 12px;
+                text-transform: capitalize;
+                border-radius: 5px;
+                width: 134px;
+                height: 30px;
+                background-image: -moz-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -webkit-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -ms-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                border: 0;
+                padding: 0;
+                margin-top: -5px;
+                margin-right: 0;
+            }
+            
+            .jianna-care-calendar-title a {
+                color: #36abfc;
+                font-weight: 300;
+                font-size: 13px;
+            }
+            
+            .jianna-care-calendar-title a i {
+                margin-right: 8px;
+            }
+            
+            .modal-form h3 {
+                color: #636363;
+                font-weight: 600;
+                font-size: 16px;
+                text-transform: capitalize;
+                margin-bottom: 10px;
+            }
+            /* full-calendar-css-start */
+            /* full-calendar-customised-css start*/
+            
+            .fc-header-title h2 {
+                margin-top: 12px;
+                white-space: nowrap;
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 0px;
+                color: #636363;
+                font-weight: 600;
+                font-size: 16px;
+                text-align: center;
+                text-transform: capitalize;
+            }
+            
+            .fc-week .fc-day>div .fc-day-number {
+                font-size: 13px;
+                margin: 0;
+                width: 100%;
+                padding: 0;
+                text-align: left;
+                height: 100%;
+                font-weight: 600;
+                padding: 15px 0 15px 15px;
+                position: relative;
+                z-index: 99999;
+            }
+            
+            .fc-border-separate th,
+            .fc-border-separate td div {
+                height: 110px;
+                font-weight: 600;
+                color: #999999;
+            }
+            
+            thead tr.fc-first {
+                background-color: transparent;
+            }
+            
+            .fc-border-separate tr.fc-last th {
+                border-bottom-width: 1px;
+                border-color: #e3f3fe;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 30px;
+            }
+            
+            thead tr.fc-first th.fc-day-header {
+                height: inherit;
+                color: #999999;
+                font-weight: 300;
+                font-size: 13px;
+                text-transform: capitalize;
+                line-height: 1;
+                border-top: 1px solid #e3f3fe;
+                border-left: 1px solid #e3f3fe;
+                padding: 17px 0 17px 15px;
+                text-align: left;
+            }
+            
+            thead tr.fc-first th.fc-day-header:first-child {
+                border-left: 0;
+            }
+            
+            .fc-day-number:hover {
+                background-image: -moz-linear-gradient( 45deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -webkit-linear-gradient( 45deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                background-image: -ms-linear-gradient( 45deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+                box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.5);
+                border-radius: 0;
+                color: #FFFFFF;
+                transition: background-color 0.2s;
+                border-radius: 0;
+            }
+            
+            .fc-header td {
+                padding: 0 15px;
+            }
+            
+            .fc-header-left {
+                border-radius: 5px;
+                background-color: rgba(54, 171, 252, 0.102);
+                width: 144px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .fc-header-left span.fc-button span.fc-text-arrow {
+                margin: 0;
+            }
+            
+            .fc-header .fc-button {
+                padding: 0!important;
+                margin: 0 !important;
+                border: 0 !important;
+            }
+            
+            .fc-event-container {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .fc-event {
+                z-index: 999 !important;
+                background: #36abfc !important;
+                width: 10px !important;
+                height: 10px !important;
+                display: inline-block;
+                border-radius: 100%;
+                border: 0;
+                margin-left: 13px;
+                margin-top: -115px;
+            }
+            
+            .fc-event:hover {
+                background: #000;
+            }
+            
+            .fc-event.info {
+                /* margin-top: 5px;*/
+            }
+            
+            .fc-event.Repeating {
+                /* margin-top: 7px;*/
+            }
+            
+            .fc-event.success {
+                /*margin-top: 10px;*/
+                background: red!important;
+            }
+            
+            .fc-state-default {
+                color: #36abfc;
+            }
+            
+            .fc-border-separate {
+                z-index: 1;
+            }
+            
+            .fc-state-highlight>div>div.fc-day-number {
+                background-color: #ebf6ff;
+                color: #36abfc;
+            }
+            
+            .fc-state-highlight>div>div.fc-day-number:hover {
+                color: #fff;
+            }
+            
+            .fc-event-container {
+                position: relative !important;
+            }
+            /* full-calendar-customised-css start*/
+            /* full-calendar-css-end */

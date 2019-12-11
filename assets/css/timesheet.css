@@ -1,0 +1,973 @@
+    /*-------------------------------
+common-css
+. -------------------------------*/
+    
+    .hide {
+        transition: linear 0.5s;
+        -webkit-transition: linear 0.5s;
+        -moz-transition: linear 0.5s;
+        -ms-transition: linear 0.5s;
+        -o-transition: linear 0.5s;
+    }
+    
+    .none {
+        display: none;
+        transition: linear 0.5s;
+        -webkit-transition: linear 0.5s;
+        -moz-transition: linear 0.5s;
+        -ms-transition: linear 0.5s;
+        -o-transition: linear 0.5s;
+    }
+    
+    .left-bar-top-logo a span.Johny {
+        color: #333333;
+        font-weight: 600;
+        font-size: 15px;
+        position: relative;
+    }
+    
+    .left-bar-top-logo a span.Johny:before {
+        position: absolute;
+        width: 27px;
+        height: 15px;
+        content: "ren";
+        background: #fbb741;
+        top: -2px;
+        right: -30px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 9px;
+        padding-top: 2px;
+        font-weight: 600;
+        border-radius: 2px;
+    }
+    
+    .left-bar-top-logo h5 {
+        color: #999999;
+        font-weight: 300;
+        font-size: 13px;
+        text-transform: inherit;
+        margin: 0;
+        margin-top: 5px;
+    }
+    
+    .time-sheet-title {
+        margin-bottom: 30px;
+    }
+    
+    .time-sheet-title h3 {
+        margin: 0;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 1;
+        color: #333333;
+        font-size: 18px;
+    }
+    
+    .devider-2 {
+        border-top: 1px solid #e4f3fe;
+    }
+    
+    .time-sheet-main-content {
+        margin-top: 30px;
+        padding: 0 30px;
+        border: 1px solid rgb(225, 242, 255);
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+    }
+    
+    .time-sheet-carojel-title {
+        padding: 10px 0;
+    }
+    
+    .time-sheet-carojel-title h3 {
+        color: #636363;
+        margin: 0;
+        line-height: 1;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+    
+    .time-sheet-date-picker {
+        width: 135px;
+        height: 30px;
+        background: #ebf6ff;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: 110px;
+    }
+    
+    .time-sheet-date-picker a {
+        color: #36abfc;
+        font-weight: 300;
+        text-transform: inherit;
+        font-size: 12px;
+        position: relative;
+        width: 75%;
+        text-align: center;
+    }
+    
+    .time-sheet-date-picker a::before {
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #36abfc;
+        position: absolute;
+        left: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        cursor: pointer;
+    }
+    
+    .time-sheet-date-picker a::after {
+        content: "\f104";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #36abfc;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        right: auto;
+        cursor: pointer;
+    }
+    
+    .time-sheet-date-picker a i {
+        margin-right: 10px;
+    }
+    
+    .wrapre-content-card-title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .wrapre-content-card-title-date {
+        width: 46px;
+        height: 56px;
+        border-radius: 6px;
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .date-bg-1 {
+        background-image: -moz-linear-gradient( 62deg, rgb(43, 22, 80) 0%, rgb(123, 120, 237) 100%);
+        background-image: -webkit-linear-gradient( 62deg, rgb(43, 22, 80) 0%, rgb(123, 120, 237) 100%);
+        background-image: -ms-linear-gradient( 62deg, rgb(43, 22, 80) 0%, rgb(123, 120, 237) 100%);
+        box-shadow: 0px 5px 8.5px 1.5px rgba(82, 68, 154, 0.2);
+    }
+    
+    .wrapre-content-card-title-date span {
+        color: #ffffff;
+        font-weight: 300;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 12px;
+        display: block;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    
+    .wrapre-content-card-title-date p {
+        color: #fff;
+        margin: 0;
+        line-height: 1;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .wrapre-content-card-title-info {
+        margin-left: 15px;
+        text-align: left;
+    }
+    
+    .wrapre-content-card-title-info h3 {
+        margin: 0;
+        color: #999999;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    
+    .wrapre-content-card-title-info p {
+        color: #999999;
+        margin: 0;
+        line-height: 1;
+        font-size: 11px;
+        font-weight: 100;
+    }
+    
+    .wrapre-content-card-title-info h3 a {
+        color: #36abfc;
+        line-height: 1;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+    
+    .wrapre-content-card-title-info h3 span {
+        display: inline-block;
+        padding: 0 10px;
+        margin: 0 5px;
+        border-right: 2px solid #636363;
+        border-left: 2px solid #636363;
+        color: #636363;
+        text-transform: uppercase;
+    }
+    
+    .time-sheet-inner-body {
+        padding: 30px;
+        border: 1px solid rgb(225, 242, 255);
+        border-style: solid;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+    }
+    
+    .Agency-list ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .Agency-list ul li {
+        color: #999999;
+        line-height: 1;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .Agency-list ul li i {
+        color: #36abfc;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    
+    .Agency-list ul li:nth-child(4) {
+        color: #999999;
+        font-weight: 500;
+    }
+    
+    .Agency-list ul li:nth-child(5) {
+        color: #999999;
+        font-weight: 500;
+    }
+    
+    .Agency-list ul li:nth-child(6) {
+        color: #999999;
+        font-weight: 500;
+    }
+    
+    .Agency-list ul li:nth-child(7) {
+        color: #999999;
+        font-weight: 500;
+    }
+    
+    .Agency-list ul li span {
+        color: #636363;
+        font-weight: 300;
+        font-size: 14px;
+        text-transform: capitalize;
+        width: 100px;
+        display: inline-block;
+    }
+    
+    #timesheet-box,
+    #timesheet-boxs {
+        border-radius: 5px;
+        background-color: rgb(235, 246, 255);
+        width: 95%;
+        height: 100px;
+        border: 0;
+        color: #36abfc;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 15px;
+    }
+    
+    .raiting {
+        margin-bottom: 20px;
+    }
+    
+    .raiting h6 {
+        color: #636363;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .raiting .starts li {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .raiting .starts li img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #timesheet-box-2 {
+        border-radius: 5px;
+        background-color: rgb(235, 246, 255);
+        width: 95%;
+        height: 174px;
+        border: 0;
+        color: #36abfc;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 15px;
+    }
+    
+    #timesheet-box-2 P {
+        margin: 0;
+    }
+    
+    .capture {
+        display: flex;
+        align-items: end;
+        height: 100%;
+        justify-content: end;
+        padding-bottom: 15px;
+    }
+    
+    .capture a {
+        border-radius: 50%;
+        background-color: rgb(54, 171, 252);
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        text-align: center;
+        line-height: 22px;
+        color: #fff;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    
+    .Office-Use label {
+        display: block;
+        font-weight: 500;
+        color: #f96b6b;
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-top: -3px;
+    }
+    
+    .Office-Use input {
+        border-radius: 5px;
+        background-color: rgb(235, 246, 255);
+        width: 95%;
+        height: 40px;
+        border: 0;
+        padding-left: 20px;
+        color: #36abfc;
+        font-weight: 300;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    
+    .timesheet-footer {
+        padding-top: 20px;
+    }
+    
+    .timesheet-footer p {
+        margin: 0;
+        font-weight: 300;
+        color: #999999;
+        font-size: 12px;
+    }
+    
+    .timesheet-footer-btn {
+        margin-top: 30px;
+    }
+    
+    .timesheet-footer-btn a {
+        border-radius: 3px;
+        background-image: -moz-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(64, 187, 254) 0%, rgb(64, 144, 254) 100%);
+        box-shadow: 0px 7px 10.89px 0.11px rgba(64, 145, 254, 0.45);
+        width: 141px;
+        height: 41px;
+        margin: 0 auto;
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+    
+    .time-sheet-header {
+        text-align: center;
+        background-color: rgb(255, 182, 96);
+        border: 1px solid rgb(225, 242, 255);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 10px 0;
+    }
+    
+    .time-sheet-header p {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 12px;
+        margin: 0;
+    }
+    
+    .Agency-list h4 {
+        color: #636363;
+        margin: 0;
+        line-height: 1;
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    
+    .yes-btn {
+        margin-bottom: 20px;
+        width: 95%;
+        border-bottom: 1px solid rgb(225, 242, 255);
+        padding-bottom: 25px;
+    }
+    
+    .yes-btn h3 {
+        color: #333;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        margin-top: 15px;
+    }
+    
+    .yes-btn a {
+        border-radius: 5px;
+        background-color: rgb(122, 232, 150);
+        width: 60px;
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .yes-btn.No a {
+        background: #f96b6b;
+    }
+    
+    .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        width: 320px;
+    }
+    
+    .btnu {
+        padding: 15px 20px;
+        border-radius: 5px;
+        font-size: 10px;
+        color: #999999;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+        border: 1px solid rgb(225, 242, 255);
+        cursor: pointer;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        width: 320px;
+    }
+    
+    .upload-btn-wrapper input[type="file"] {
+        font-size: 73px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    .upload-filed h3 {
+        color: #636363;
+        margin: 0;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .upload-filed h4 {
+        color: #999999;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    .upload-filed h4 i {
+        cursor: pointer;
+    }
+    
+    .upload-filed h4 span.upload-separetor {
+        font-weight: 500;
+        display: inline-block;
+        margin: 0 30px;
+    }
+    
+    .Base {
+        border-radius: 5px;
+        background-color: rgb(235, 246, 255);
+        position: absolute;
+        left: 726px;
+        top: 1363px;
+        width: 324px;
+        height: 110px;
+        z-index: 62;
+    }
+    
+    .my-mt-100 {
+        margin-top: 95px;
+    }
+    
+    .h-110 {
+        height: 110px !important;
+    }
+    
+    .width-320 {
+        width: 320px;
+    }
+    
+    .Agency-list.Agency-list-verticleline {
+        position: relative;
+    }
+    
+    .Agency-list.Agency-list-verticleline::before {
+        position: absolute;
+        width: 1px;
+        height: 260px;
+        content: "";
+        background: #eaeaea;
+        right: 0;
+        bottom: -100px;
+    }
+    
+    .time-sheet-slider {
+        padding: 0 15px;
+    }
+    
+    .time-sheet-active .owl-nav {
+        position: absolute;
+        top: -77px;
+        right: 0px;
+    }
+    
+    .time-sheet-active .owl-nav button {
+        background: transparent;
+        border: none;
+        font-size: 29px;
+        color: #c0c0c0;
+        padding: 0 5px;
+    }
+    
+    .time-sheet-active .owl-nav button.owl-prev::after {
+        width: 1px;
+        height: 40px;
+        content: "";
+        position: absolute;
+        background: #d7eefe;
+        top: 0px;
+        left: -18px;
+    }
+    
+    .wrapre-content-card-title-info h4 {
+        display: inline-block;
+        margin: 0 65px 0 30px;
+        color: #636363;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    
+    .pdf-btn {
+        text-align: right;
+    }
+    
+    .pdf-btn a {
+        border: 1px solid rgb(225, 242, 255);
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        color: #36abfc;
+        font-weight: 300;
+        font-size: 12px;
+        padding-top: 4px;
+        transition: linear 0.5s;
+        -webkit-transition: linear 0.5s;
+        -moz-transition: linear 0.5s;
+        -ms-transition: linear 0.5s;
+        -o-transition: linear 0.5s;
+    }
+    
+    .pdf-btn a:hover {
+        background-color: rgb(122, 232, 150);
+        border: 1px solid transparent;
+        color: #fff;
+    }
+    
+    .pdf-btn a.active {
+        background-color: rgb(122, 232, 150);
+        border: 1px solid transparent;
+        color: #fff;
+        transition: linear 0.5s;
+        -webkit-transition: linear 0.5s;
+        -moz-transition: linear 0.5s;
+        -ms-transition: linear 0.5s;
+        -o-transition: linear 0.5s;
+    }
+    
+    .pdf-btn a.active:hover {
+        border: 1px solid rgb(225, 242, 255);
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+        color: #36abfc;
+    }
+    
+    .mr-35 {
+        margin-right: 35px;
+    }
+    
+    .footer-slider {
+        padding: 0 15px;
+    }
+    
+    .footer-slider-active .owl-nav {
+        position: absolute;
+        top: -77px;
+        right: 0px;
+    }
+    
+    .footer-slider-active .owl-nav button {
+        background: transparent;
+        border: none;
+        font-size: 29px;
+        color: #c0c0c0;
+        padding: 0 5px;
+    }
+    
+    .footer-slider-active .owl-nav button.owl-prev::after {
+        width: 1px;
+        height: 40px;
+        content: "";
+        position: absolute;
+        background: #d7eefe;
+        top: 0px;
+        left: -18px;
+    }
+    
+    .popup {
+        margin-bottom: 11px;
+    }
+    
+    .pencile p i {
+        color: #36abfc;
+        font-size: 14px;
+        margin-left: 78px;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        outline: 0;
+    }
+    
+    .pencile span.opacity-0 {
+        color: #999999;
+        line-height: 1;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 14px;
+        opacity: 0;
+        display: none;
+    }
+    
+    .pencile button {
+        color: #36abfc;
+        font-size: 14px;
+        margin-left: 10px;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        outline: 0;
+    }
+    
+    .pencile button i {}
+    
+    span.separetor-2 {
+        color: #636363;
+        font-weight: 300;
+        font-size: 14px;
+        text-transform: capitalize;
+        width: 100px;
+        margin-left: 0 !important;
+    }
+    
+    .pencile .dropdown-menu.show {
+        will-change: unset !important;
+        transform: translate(0) !important;
+        width: 170px;
+    }
+    
+    .dropdown .dropdown-menu {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+        transform: none !important;
+        padding-top: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .dropdown .dropdown-menu a.dropdown-item {
+        border-bottom: 1px solid #90d0fd;
+    }
+    
+    .dropdown-item {
+        font-weight: 400;
+        color: #999;
+        text-align: inherit;
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 1;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #select {}
+    
+    .nice-select {
+        border-radius: 5px;
+        background-color: rgb(235, 246, 255);
+        border: 0;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    
+    .nice-select span.current {
+        font-size: 12px;
+        color: #36abfc;
+        font-size: 13px;
+    }
+    
+    .nice-select .list {
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 19.8px 0.2px rgba(64, 145, 254, 0.15);
+        box-sizing: border-box;
+        margin-top: 4px;
+        opacity: 0;
+        overflow: hidden;
+        padding: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 99999;
+    }
+    
+    .nice-select .option {
+        cursor: pointer;
+        font-weight: 400;
+        line-height: 40px;
+        list-style: none;
+        min-height: 40px;
+        outline: none;
+        padding-left: 18px;
+        padding-right: 29px;
+        text-align: left;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        color: #36abfc;
+        font-size: 13px !important;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgb(235, 246, 255);
+    }
+    
+    .nice-select .option:hover,
+    .nice-select .option.focus,
+    .nice-select .option.selected.focus {
+        background-color: transparent;
+        border: 0 !important;
+        outline: 0;
+    }
+    /* signature-block */
+    
+    .signature-block canvas {
+        display: block;
+        cursor: crosshair;
+        height: 173px;
+        width: 84%;
+        border-radius: 5px;
+        background-color: rgb(235, 246, 255);
+        border: 0;
+    }
+    
+    .noselect {
+        user-selection: none;
+    }
+    
+    .sign {
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        top: 393px;
+        width: 41%;
+    }
+    
+    .sign-btn {
+        margin-top: -35px;
+        text-align: right;
+        width: 85%;
+        padding-right: 15px;
+    }
+    
+    .sign-btn button {
+        border-radius: 50%;
+        background-color: rgb(54, 171, 252);
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        text-align: center;
+        line-height: 22px;
+        color: #fff;
+        font-size: 10px;
+        margin-left: 5px;
+        padding: 0;
+        border: 0;
+        cursor: pointer;
+    }
+    
+    .signature-block p {
+        position: absolute;
+        color: #36abfc;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 15px;
+    }
+    
+    .timesheet-nice {}
+    
+    .timesheet-nice .nice-select {
+        position: absolute;
+        left: 100px;
+        background: transparent;
+        padding: 0 24px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 85px;
+        /*! z-index: 999; */
+    }
+    
+    .timesheet-nice .nice-select::after {
+        display: none;
+    }
+    
+    .timesheet-nice .nice-select span.current {
+        color: #999999;
+        line-height: 1;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 14px;
+        position: relative;
+        top: -5px;
+    }
+    
+    i.custom-pencil {
+        position: relative;
+        /*! right: -15px; */
+    }
+    
+    .timesheet-nice-1 .nice-select {
+        position: absolute;
+        left: 100px;
+        background: transparent;
+        padding: 0 24px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 115px;
+    }
+    
+    .timesheet-nice-1 .nice-select::after {
+        width: 0;
+        height: 0;
+        border-left: 7px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 10px solid #36abfc;
+        transform: rotate(0deg);
+        right: 0;
+        top: 15px;
+        border-bottom: 0;
+    }
+    
+    .timesheet-nice-1 .nice-select span.current {
+        color: #999999;
+        line-height: 1;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-size: 14px;
+        position: relative;
+        top: -5px;
+    }
+    
+    .pencile span {
+        margin-left: 35px;
+        color: #999;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+    .pencile p {
+        margin-bottom: 0;
+    }
+    /* ---------------------------
+jianna-care-shift-css-end
+----------------------------- */
+    
+    .signature-blocks {}
+    
+    .signature-blocks canvas {
+        display: block;
+        cursor: crosshair;
+        height: 173px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgb(235, 246, 255);
+        border: 0;
+    }

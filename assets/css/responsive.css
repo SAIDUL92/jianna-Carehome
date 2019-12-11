@@ -1,0 +1,620 @@
+@media (min-width: 1500px) and (max-width: 1920px) {
+    .user-card.show {
+        left: -125px !important;
+        transform: translate3d(0px, 70px, 0px)!important;
+        -webkit-transform: translate3d(0px, 70px, 0px)!important;
+        -moz-transform: translate3d(0px, 70px, 0px)!important;
+        -ms-transform: translate3d(0px, 70px, 0px)!important;
+        -o-transform: translate3d(0px, 70px, 0px)!important;
+    }
+    .user-notification-card.show {
+        right: 0;
+        transform: translate3d(0px, 70px, 0px)!important;
+        -webkit-transform: translate3d(0px, 70px, 0px)!important;
+        -moz-transform: translate3d(0px, 70px, 0px)!important;
+        -ms-transform: translate3d(0px, 70px, 0px)!important;
+        -o-transform: translate3d(0px, 70px, 0px)!important;
+    }
+    .user-notification-card-1.show {
+        left: auto !important;
+        right: -48px;
+        top: 15px !important;
+        transform: translate3d(0px, 70px, 0px)!important;
+        -webkit-transform: translate3d(0px, 70px, 0px)!important;
+        -moz-transform: translate3d(0px, 70px, 0px)!important;
+        -ms-transform: translate3d(0px, 70px, 0px)!important;
+        -o-transform: translate3d(0px, 70px, 0px)!important;
+    }
+    .Chat-content-list {
+        height: 797px;
+        overflow-y: scroll;
+    }
+    .Chat-main-content-body {
+        height: 797px;
+        overflow-y: scroll;
+    }
+    .fc-border-separate th,
+    .fc-border-separate td div {
+        height: 172px;
+        font-weight: 600;
+        color: #999999;
+    }
+    .h-450 {
+        height: 450px;
+    }
+    .h-470 {
+        height: 470px;
+    }
+    .h-375 {
+        height: 375px;
+    }
+    .sign {
+        position: absolute;
+        z-index: 99;
+        top: 393px;
+        width: 49%;
+        right: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    .user-card.show {
+        left: -140px !important;
+        transform: translate3d(0px, 70px, 0px)!important;
+        -webkit-transform: translate3d(0px, 70px, 0px)!important;
+        -moz-transform: translate3d(0px, 70px, 0px)!important;
+        -ms-transform: translate3d(0px, 70px, 0px)!important;
+        -o-transform: translate3d(0px, 70px, 0px)!important;
+        top: 35px !important;
+    }
+    .user-notification-card.show {
+        right: 0;
+        transform: translate3d(0px, 70px, 0px)!important;
+        -webkit-transform: translate3d(0px, 70px, 0px)!important;
+        -moz-transform: translate3d(0px, 70px, 0px)!important;
+        -ms-transform: translate3d(0px, 70px, 0px)!important;
+        -o-transform: translate3d(0px, 70px, 0px)!important;
+    }
+    .user-notification-card-1.show {
+        right: -48px;
+        transform: translate3d(0px, 70px, 0px)!important;
+        -webkit-transform: translate3d(0px, 70px, 0px)!important;
+        -moz-transform: translate3d(0px, 70px, 0px)!important;
+        -ms-transform: translate3d(0px, 70px, 0px)!important;
+        -o-transform: translate3d(0px, 70px, 0px)!important;
+    }
+    .nice-select span.current {
+        font-size: 12px;
+    }
+    .nice-select .option {
+        font-size: 12px;
+    }
+    .Chat-main-content-body {
+        height: 435px;
+        overflow-y: scroll;
+    }
+    .fc-border-separate th,
+    .fc-border-separate td div {
+        height: 110px;
+        font-weight: 600;
+        color: #999999;
+    }
+    .fc-event {
+        margin-top: -75px;
+    }
+    .h-450 {
+        height: 450px;
+    }
+    .h-470 {
+        height: 470px;
+    }
+    .h-375 {
+        height: 375px;
+    }
+    .btnu {
+        width: 300px;
+    }
+    .upload-filed h4 span.upload-separetor {
+        margin: 0 20px;
+    }
+    .wrapre-content-card-title-info h4 {
+        margin: 0 28px 0 7px;
+        font-size: 15px;
+    }
+    .pencile span {
+        font-size: 12px;
+    }
+    .my-mt-100 {
+        margin-top: 87px;
+    }
+    .sign {
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        top: 393px;
+        width: 48%;
+        padding-right: 35px;
+    }
+    .sign-btn {
+        margin-top: -35px;
+        text-align: right;
+        padding-right: 20px;
+    }
+    .pencile p i {
+        color: #36abfc;
+        font-size: 14px;
+        margin-left: 90px;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        outline: 0;
+    }
+}
+
+
+/* XL Device :1200px. */
+
+@media (min-width: 1600px) and (max-width: 2000px) {
+    .auth-content {
+        padding-left: 13px;
+    }
+    .slide-box {
+        height: 87px;
+    }
+    .auth-content {
+        padding-top: 12px;
+    }
+}
+
+
+/* XL Device :1200px. */
+
+@media (min-width: 992px) {
+    .activee .left-bar-main-menu ul li a {
+        width: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+    }
+    .activee .left-bar-main-menu {
+        margin-left: 0px;
+    }
+}
+
+
+/* XL Device :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .slide-box {
+        height: 102px;
+    }
+    .auth-content {
+        width: 60%;
+        float: right;
+        padding-left: 24px;
+        padding-top: 15px;
+    }
+    .Agency-list h4 {
+        font-size: 13px;
+        margin-bottom: 28px;
+    }
+    .Agency-list ul li {
+        font-size: 13px;
+    }
+}
+
+
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .site-round-logo img {
+        max-width: 250px;
+        width: 91px;
+    }
+    .regular-item {
+        font-size: 14px;
+    }
+    .Chat-main-content-body {
+        height: 435px;
+        overflow-y: scroll;
+    }
+    .h-450 {
+        height: 450px;
+    }
+    .h-470 {
+        height: 470px;
+    }
+    .h-375 {
+        height: 375px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-content-area-wrp {
+        width: 1315px;
+        overflow-x: scroll;
+    }
+    .Chat-content-list {
+        height: 728px;
+        overflow-y: scroll;
+    }
+    .fc-event {
+        margin-top: -75px;
+    }
+    .Agency-list h4 {
+        font-size: 14px;
+    }
+    .wrapre-content-card-title-info h4 {
+        margin: 0 28px 0 7px;
+        font-size: 15px;
+    }
+    .my-mt-100 {
+        margin-top: 85px;
+    }
+    .sign {
+        position: absolute;
+        right: 27px;
+        z-index: 99;
+        top: 393px;
+        width: 45%;
+    }
+    .pencile p i {
+        color: #36abfc;
+        font-size: 14px;
+        margin-left: 90px;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        outline: 0;
+    }
+}
+
+
+/* MD Device :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .page-left-bar .left-bar-top-logo img {
+        max-width: 68px;
+    }
+    .page-left-bar {
+        width: 100px;
+    }
+    .page-left-bar.activee {
+        width: 300px;
+    }
+    .page-left-bar .left-bar-main-menu ul li a span {
+        display: none;
+    }
+    .page-left-bar.activee .left-bar-main-menu ul li a span {
+        display: block;
+    }
+    .page-right-main-content {
+        margin-left: 80px;
+    }
+    .page-right-main-content.activee {
+        margin-left: 300px;
+    }
+    .page-left-bar .left-bar-top-logo span {
+        display: none;
+    }
+    .page-left-bar.activee .left-bar-top-logo span {
+        display: block;
+    }
+    .activee .left-bar-main-menu ul li a i {
+        width: 46px;
+        text-align: center;
+        font-size: 21px;
+        height: 43px;
+        line-height: 43px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(0%, 0%);
+    }
+    .left-bar-main-menu ul li a i {
+        width: 40px;
+        text-align: center;
+        font-size: 21px;
+        height: 40px;
+        line-height: 43px;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, 0%);
+    }
+    .left-bar-main-menu ul li {
+        display: block;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .activee .left-bar-main-menu ul li a {
+        font-size: 15px;
+        width: auto;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 7px;
+        padding-left: 44px;
+        height: 40px;
+        border-radius: 50px 0px 0px 50px !important;
+        margin: auto;
+    }
+    .left-bar-main-menu ul li a {
+        font-size: 15px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 7px;
+        padding-left: 44px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px !important;
+        margin: 0 auto;
+    }
+    .activee .left-bar-main-menu {
+        margin-left: 10px;
+    }
+    .left-bar-main-menu {
+        margin-left: 0;
+    }
+    .logo-area-top-content {
+        padding-left: 25px;
+    }
+    .logo-area-bottom-icon-list li {
+        display: inline-block;
+        position: relative;
+        margin-right: 6px;
+    }
+    .logo-area-bottom-icon-list li {
+        font-size: 14px;
+    }
+    .main-content-area-wrp {
+        width: 1030px;
+        overflow-x: scroll;
+    }
+    .Chat-main-content-body {
+        height: 435px;
+        overflow-y: scroll;
+    }
+    .fc-event {
+        margin-top: -75px;
+    }
+    .Agency-list h4 {
+        font-size: 13px;
+    }
+    .wrapre-content-card-title-info h4 {
+        margin: 0 28px 0 7px;
+        font-size: 15px;
+    }
+    .my-mt-100 {
+        margin-top: 60px;
+    }
+    .btnu {
+        width: 317px;
+    }
+    .pencile span {
+        font-size: 12px;
+    }
+    .sign {
+        position: absolute;
+        right: 27px;
+        z-index: 99;
+        top: 393px;
+        width: 45%;
+    }
+    .pencile p i {
+        color: #36abfc;
+        font-size: 14px;
+        margin-left: 90px;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        outline: 0;
+    }
+}
+
+
+/* SM Small Device :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .page-left-bar .left-bar-top-logo img {
+        max-width: 41px;
+    }
+    .page-left-bar {
+        width: 50px;
+    }
+    .page-left-bar.activee {
+        width: 300px;
+    }
+    .page-left-bar .left-bar-main-menu ul li a span {
+        display: none;
+    }
+    .page-left-bar.activee .left-bar-main-menu ul li a span {
+        display: block;
+    }
+    .page-right-main-content {
+        margin-left: 50px;
+    }
+    .page-right-main-content.activee {
+        margin-left: 300px;
+    }
+    .page-left-bar .left-bar-top-logo span {
+        display: none;
+    }
+    .page-left-bar.activee .left-bar-top-logo span {
+        display: block;
+    }
+    .left-bar-main-menu ul li a i {
+        width: 46px;
+        text-align: center;
+        font-size: 21px;
+        height: 43px;
+        line-height: 43px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .left-bar-main-menu ul li {
+        display: block;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .activee .left-bar-main-menu ul li a {
+        font-size: 15px;
+        display: block;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 7px;
+        padding-left: 44px;
+        height: 40px;
+        width: auto;
+        border-radius: 50px 0px 0px 50px !important;
+    }
+    .left-bar-main-menu ul li a {
+        font-size: 15px;
+        display: block;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        /* padding-left: 7px; */
+        padding-left: 44px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px !important;
+    }
+    .logo-area-top-content {
+        padding-left: 10px;
+        padding-right: 7px;
+    }
+    .logo-area-bottom-icon-list li {
+        display: inline-block;
+        position: relative;
+        margin-right: 6px;
+    }
+    .logo-area-bottom-icon-list li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .col-lg-4.col-md-4.dlm {
+        display: none;
+    }
+    .menu-open span {
+        display: none;
+    }
+    .activee .left-bar-main-menu {
+        margin-left: 6px;
+    }
+    .left-bar-main-menu {
+        margin-left: 3px;
+    }
+    .stuff-carosel {
+        margin: 0 1px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+    .regular-timing-area {
+        background: #fff;
+        margin: 1px;
+        border-radius: 8px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .section-top-title h1 {
+        padding-top: 25px;
+    }
+    .site-round-logo img {
+        width: 86px;
+    }
+    .site-round-logo {
+        text-align: center;
+        padding-top: 0;
+    }
+    .logo-area {
+        background: #fff;
+        padding: 20px 0;
+    }
+    .footer-area {
+        background: #fff;
+        border-radius: 8px 8px 0 0;
+        padding: 15px;
+        margin-right: 0px;
+        margin-left: 1px;
+        margin-top: 25px;
+    }
+    .carosel-top-bar {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .regular-item {
+        margin-bottom: 33px;
+        font-size: 13px;
+    }
+    .single-slide-item {
+        box-shadow: 0 0 20px #e1f2ff;
+        border-radius: 10px;
+        border: 1px solid #eaf5ff;
+        margin: 0px 0px;
+    }
+    .slide-box {
+        height: 93px;
+    }
+    .auth-content {
+        width: 60%;
+        float: right;
+        padding-left: 17px;
+        padding-top: 11px;
+    }
+    .author-img img {
+        max-width: 95px;
+        width: 148px !important;
+    }
+    .carosel-title-right-text ul li a {
+        padding: 7px 12px;
+    }
+    .logo-area-top-content p {
+        font-size: 13px;
+        color: #999999;
+        margin: 12px 0;
+        line-height: 23px;
+    }
+    .info-list li {
+        list-style: none;
+        display: inline-block;
+        font-size: 13px;
+        color: #999999;
+        margin-right: 8px;
+    }
+    .dlm2 {
+        display: block
+    }
+    .header-top-logo2 {
+        width: 60px;
+        padding: 14px 0 0
+    }
+    .main-content-area-wrp {
+        width: 1030px;
+        overflow-x: scroll;
+    }
+    .fc-event {
+        margin-top: -75px;
+    }
+    .sign {
+        position: absolute;
+        right: 27px;
+        z-index: 99;
+        top: 393px;
+        width: 45%;
+    }
+    .pencile p i {
+        outline: 0;
+    }
+}
+
+
+/* SM Small Device :550px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
